@@ -6,7 +6,7 @@
 
 Libs2 is a re-imagining of the hit game: Happy Libs, now written using the Angular framework.
 
-#####This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+######This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
 
