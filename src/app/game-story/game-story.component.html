@@ -1,0 +1,23 @@
+<div *ngIf="story; then storyExists else noStory"></div>
+
+<ng-template #storyExists>
+	<h2>So it begins. . .</h2>
+	<p class="story">{{ story }}</p>
+	<button 
+		class="btn btn-lg btn-primary btn-outline-dark text-light"
+		routerLink="/form">
+		New Story
+	</button>
+</ng-template>
+
+<ng-template #noStory>
+	<h2> Error! </h2>
+	<p class="story">
+		Sorry pal, you've got to fill out our form first.
+	</p>
+	<button 
+		class="btn btn-lg btn-primary btn-outline-dark text-light"
+		routerLink="/form">
+		Our Form. . .
+	</button>
+</ng-template>

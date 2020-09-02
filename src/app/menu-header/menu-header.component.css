@@ -1,0 +1,11 @@
+
+.navbar { background-color:#000000; }
+
+.navbar-brand {
+	font-family:'Press Start 2P';
+	font-size:30px;
+}
+
+.navbar-container {
+	padding-bottom:0px !important;
+}

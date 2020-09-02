@@ -1,0 +1,65 @@
+h2 {
+	font-family:'Press Start 2P';
+	font-size: 25px;
+}
+
+p {
+	font-family:'Raleway';
+	font-size:20px;
+	margin-top:30px;
+	text-align:left;
+}
+
+form {
+	display:table;
+	border-spacing:15px;
+	padding-bottom:10px;
+}
+
+label {
+	display:table-cell;
+	text-align:left; 
+	padding-right:10px;
+}
+
+input { display:table-cell; }
+
+.btn {
+	border-radius:0;
+	font-family:'Press Start 2P';
+	font-size:15px;
+	background-color:#000000;
+}
+
+.navbar { background-color:#000000; }
+
+.navbar-brand {
+	font-family:'Press Start 2P';
+	font-size:30px;
+}
+
+.navbar-container {
+	padding-bottom:0px !important;
+}
+
+.form-group {
+	display:table-row;	
+	font-family:'Press Start 2P';
+	font-size:15px;
+}
+
+.form-group:nth-child(even) { background-color:#f2f2f2 }
+
+.container {
+	padding-bottom:40px;
+}
+
+.story {
+	font-size:30px;
+}
+
+.user-input {
+	font-family:'Press Start 2P';
+	font-size:27px;
+	color:#7FFF00;
+}
